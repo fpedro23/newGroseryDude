@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42DA9F8217E8F9EB000E7187"
                BuildableName = "Grocery Dude.app"
-               BlueprintName = "Grocery Dude"
-               ReferencedContainer = "container:Grocery Dude.xcodeproj">
+               BlueprintName = "New Grocery Dude"
+               ReferencedContainer = "container:New Grocery Dude.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42DA9FA317E8F9EB000E7187"
                BuildableName = "Grocery DudeTests.xctest"
-               BlueprintName = "Grocery DudeTests"
-               ReferencedContainer = "container:Grocery Dude.xcodeproj">
+               BlueprintName = "New Grocery DudeTests"
+               ReferencedContainer = "container:New Grocery Dude.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DA9F8217E8F9EB000E7187"
             BuildableName = "Grocery Dude.app"
-            BlueprintName = "Grocery Dude"
-            ReferencedContainer = "container:Grocery Dude.xcodeproj">
+            BlueprintName = "New Grocery Dude"
+            ReferencedContainer = "container:New Grocery Dude.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DA9F8217E8F9EB000E7187"
             BuildableName = "Grocery Dude.app"
-            BlueprintName = "Grocery Dude"
-            ReferencedContainer = "container:Grocery Dude.xcodeproj">
+            BlueprintName = "New Grocery Dude"
+            ReferencedContainer = "container:New Grocery Dude.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DA9F8217E8F9EB000E7187"
             BuildableName = "Grocery Dude.app"
-            BlueprintName = "Grocery Dude"
-            ReferencedContainer = "container:Grocery Dude.xcodeproj">
+            BlueprintName = "New Grocery Dude"
+            ReferencedContainer = "container:New Grocery Dude.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

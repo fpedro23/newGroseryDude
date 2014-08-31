@@ -39,9 +39,9 @@
         NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
     }
     if (!_coreDataHelper) {
-        _coreDataHelper = [CoreDataHelper new];
-        [_coreDataHelper setupCoreData];
-    }
+        static dispatch_once_t predicate;
+        dispatch_once(&predicate, ^{ _coreDataHelper = [CoreDataHelper new]; });
+        [_coreDataHelper setupCoreData]; }
     return _coreDataHelper;
 }
 

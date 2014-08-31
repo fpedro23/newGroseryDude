@@ -21,6 +21,7 @@ NSString *storeFilename = @"Grocery-Dude.sqlite";
     }
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask,YES) lastObject];
 }
+
 - (NSURL *)applicationStoresDirectory {
     if (debug==1) {
         NSLog(@"Running %@ '%@'", self.class, NSStringFromSelector(_cmd));
