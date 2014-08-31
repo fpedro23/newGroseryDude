@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller - Items-->
+        <!--Prepare Table View Controller - Items-->
         <scene sceneID="qnN-je-G49">
             <objects>
-                <tableViewController id="Pzy-yK-OPF" sceneMemberID="viewController">
+                <tableViewController id="Pzy-yK-OPF" customClass="PrepareTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fHL-Yd-K75">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aGM-s4-rwa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="634" y="-382"/>
+            <point key="canvasLocation" x="650" y="-232"/>
         </scene>
         <!--View Controller - Item-->
         <scene sceneID="ufC-wZ-h7g">
@@ -65,7 +65,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1037" y="-382"/>
+            <point key="canvasLocation" x="1089" y="-232"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bul-XM-a7Q">

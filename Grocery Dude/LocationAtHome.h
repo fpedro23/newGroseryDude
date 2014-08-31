@@ -1,5 +1,5 @@
 //
-//  Unit.h
+//  LocationAtHome.h
 //  New Grocery Dude
 //
 //  Created by Pedro Contreras Nava on 30/08/14.
@@ -8,16 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreData/CoreData.h>
+#import "Location.h"
 
 @class Item;
 
-@interface Unit : NSManagedObject
+@interface LocationAtHome : Location
 
-@property (nonatomic, retain) NSString * name;
+@property (nonatomic, retain) NSString * storedIn;
 @property (nonatomic, retain) NSSet *items;
 @end
 
-@interface Unit (CoreDataGeneratedAccessors)
+@interface LocationAtHome (CoreDataGeneratedAccessors)
 
 - (void)addItemsObject:(Item *)value;
 - (void)removeItemsObject:(Item *)value;

@@ -31,8 +31,11 @@
 		EB0B40BF19B2AA3400BBB4FB /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B40BE19B2AA3400BBB4FB /* CoreDataTableViewController.m */; };
 		EB0B40C219B2AA4A00BBB4FB /* PrepareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B40C119B2AA4A00BBB4FB /* PrepareTableViewController.m */; };
 		EB0B40C419B2AA9B00BBB4FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB0B40C319B2AA9B00BBB4FB /* Main.storyboard */; };
-		EB0BFF6919B161B000351D47 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0BFF6819B161B000351D47 /* Unit.m */; };
-		EB0BFF6C19B161B000351D47 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0BFF6B19B161B000351D47 /* Item.m */; };
+		EBBCC13919B2B2A2000D1F03 /* LocationAtHome.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBCC13819B2B2A2000D1F03 /* LocationAtHome.m */; };
+		EBBCC13C19B2B2A3000D1F03 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBCC13B19B2B2A3000D1F03 /* Item.m */; };
+		EBBCC13F19B2B2A3000D1F03 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBCC13E19B2B2A3000D1F03 /* Location.m */; };
+		EBBCC14219B2B2A3000D1F03 /* LocationAtShop.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBCC14119B2B2A3000D1F03 /* LocationAtShop.m */; };
+		EBBCC14519B2B2A3000D1F03 /* Unit.m in Sources */ = {isa = PBXBuildFile; fileRef = EBBCC14419B2B2A3000D1F03 /* Unit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,10 +88,18 @@
 		EB0B40C119B2AA4A00BBB4FB /* PrepareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrepareTableViewController.m; sourceTree = "<group>"; };
 		EB0B40C319B2AA9B00BBB4FB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		EB0BFF6619B15FF600351D47 /* Model 5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 5.xcdatamodel"; sourceTree = "<group>"; };
-		EB0BFF6719B161B000351D47 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
-		EB0BFF6819B161B000351D47 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
-		EB0BFF6A19B161B000351D47 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
-		EB0BFF6B19B161B000351D47 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		EBBCC11A19B2AFEA000D1F03 /* Model 6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 6.xcdatamodel"; sourceTree = "<group>"; };
+		EBBCC12719B2B24C000D1F03 /* Model 7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Model 7.xcdatamodel"; sourceTree = "<group>"; };
+		EBBCC13719B2B2A2000D1F03 /* LocationAtHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtHome.h; sourceTree = "<group>"; };
+		EBBCC13819B2B2A2000D1F03 /* LocationAtHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtHome.m; sourceTree = "<group>"; };
+		EBBCC13A19B2B2A3000D1F03 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		EBBCC13B19B2B2A3000D1F03 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		EBBCC13D19B2B2A3000D1F03 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		EBBCC13E19B2B2A3000D1F03 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		EBBCC14019B2B2A3000D1F03 /* LocationAtShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationAtShop.h; sourceTree = "<group>"; };
+		EBBCC14119B2B2A3000D1F03 /* LocationAtShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationAtShop.m; sourceTree = "<group>"; };
+		EBBCC14319B2B2A3000D1F03 /* Unit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Unit.h; sourceTree = "<group>"; };
+		EBBCC14419B2B2A3000D1F03 /* Unit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Unit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,10 +151,16 @@
 			isa = PBXGroup;
 			children = (
 				424F398D17E946D40051A624 /* Model.xcdatamodeld */,
-				EB0BFF6A19B161B000351D47 /* Item.h */,
-				EB0BFF6B19B161B000351D47 /* Item.m */,
-				EB0BFF6719B161B000351D47 /* Unit.h */,
-				EB0BFF6819B161B000351D47 /* Unit.m */,
+				EBBCC13719B2B2A2000D1F03 /* LocationAtHome.h */,
+				EBBCC13819B2B2A2000D1F03 /* LocationAtHome.m */,
+				EBBCC13A19B2B2A3000D1F03 /* Item.h */,
+				EBBCC13B19B2B2A3000D1F03 /* Item.m */,
+				EBBCC13D19B2B2A3000D1F03 /* Location.h */,
+				EBBCC13E19B2B2A3000D1F03 /* Location.m */,
+				EBBCC14019B2B2A3000D1F03 /* LocationAtShop.h */,
+				EBBCC14119B2B2A3000D1F03 /* LocationAtShop.m */,
+				EBBCC14319B2B2A3000D1F03 /* Unit.h */,
+				EBBCC14419B2B2A3000D1F03 /* Unit.m */,
 				4205CD0B17E9951400E1FDB1 /* Model2toModel3.xcmappingmodel */,
 				4205CD1517E9B58800E1FDB1 /* Model3toModel4.xcmappingmodel */,
 				4205CD0817E994B500E1FDB1 /* Amount.h */,
@@ -338,19 +355,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0BFF6C19B161B000351D47 /* Item.m in Sources */,
 				42DA9F9D17E8F9EB000E7187 /* ViewController.m in Sources */,
 				EB0B40BF19B2AA3400BBB4FB /* CoreDataTableViewController.m in Sources */,
 				EB0B40C219B2AA4A00BBB4FB /* PrepareTableViewController.m in Sources */,
 				42DA9F9717E8F9EB000E7187 /* AppDelegate.m in Sources */,
+				EBBCC13919B2B2A2000D1F03 /* LocationAtHome.m in Sources */,
+				EBBCC14519B2B2A3000D1F03 /* Unit.m in Sources */,
 				4205CD1017E998E500E1FDB1 /* MigrationVC.m in Sources */,
 				424F398F17E946D40051A624 /* Model.xcdatamodeld in Sources */,
 				4235180617E90C1F00489190 /* CoreDataHelper.m in Sources */,
 				4205CD0C17E9951400E1FDB1 /* Model2toModel3.xcmappingmodel in Sources */,
 				4205CD0617E992F200E1FDB1 /* Measurement.m in Sources */,
+				EBBCC13C19B2B2A3000D1F03 /* Item.m in Sources */,
 				42DA9F9317E8F9EB000E7187 /* main.m in Sources */,
-				EB0BFF6919B161B000351D47 /* Unit.m in Sources */,
 				4205CD0A17E994B500E1FDB1 /* Amount.m in Sources */,
+				EBBCC14219B2B2A3000D1F03 /* LocationAtShop.m in Sources */,
+				EBBCC13F19B2B2A3000D1F03 /* Location.m in Sources */,
 				4205CD1617E9B58800E1FDB1 /* Model3toModel4.xcmappingmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,11 +587,13 @@
 			children = (
 				4205CD1117E9B51C00E1FDB1 /* Model 4.xcdatamodel */,
 				EB0BFF6619B15FF600351D47 /* Model 5.xcdatamodel */,
+				EBBCC12719B2B24C000D1F03 /* Model 7.xcdatamodel */,
+				EBBCC11A19B2AFEA000D1F03 /* Model 6.xcdatamodel */,
 				4205CD0717E9943500E1FDB1 /* Model 3.xcdatamodel */,
 				4205CD0017E9909500E1FDB1 /* Model 2.xcdatamodel */,
 				424F398E17E946D40051A624 /* Model.xcdatamodel */,
 			);
-			currentVersion = EB0BFF6619B15FF600351D47 /* Model 5.xcdatamodel */;
+			currentVersion = EBBCC12719B2B24C000D1F03 /* Model 7.xcdatamodel */;
 			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42DA9F8217E8F9EB000E7187"
-               BuildableName = "Grocery Dude.app"
+               BuildableName = "New Grocery Dude.app"
                BlueprintName = "New Grocery Dude"
                ReferencedContainer = "container:New Grocery Dude.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "42DA9FA317E8F9EB000E7187"
-               BuildableName = "Grocery DudeTests.xctest"
+               BuildableName = "New Grocery DudeTests.xctest"
                BlueprintName = "New Grocery DudeTests"
                ReferencedContainer = "container:New Grocery Dude.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DA9F8217E8F9EB000E7187"
-            BuildableName = "Grocery Dude.app"
+            BuildableName = "New Grocery Dude.app"
             BlueprintName = "New Grocery Dude"
             ReferencedContainer = "container:New Grocery Dude.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DA9F8217E8F9EB000E7187"
-            BuildableName = "Grocery Dude.app"
+            BuildableName = "New Grocery Dude.app"
             BlueprintName = "New Grocery Dude"
             ReferencedContainer = "container:New Grocery Dude.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "42DA9F8217E8F9EB000E7187"
-            BuildableName = "Grocery Dude.app"
+            BuildableName = "New Grocery Dude.app"
             BlueprintName = "New Grocery Dude"
             ReferencedContainer = "container:New Grocery Dude.xcodeproj">
          </BuildableReference>

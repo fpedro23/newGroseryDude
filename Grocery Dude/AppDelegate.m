@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "Item.h"
-#import "Amount.h"
+#import "LocationAtHome.h"
+#import "LocationAtShop.h"
 #import "Unit.h"
+#import "Item.h"
 
 @implementation AppDelegate
 #define debug 1
@@ -30,9 +31,7 @@
     else {NSLog(@"Found %lu unit(s) ",(unsigned long)[fetchedUnits count]);}
 }
 
-- (void)demo {
-
-}
+- (void)demo {}
 
 - (CoreDataHelper*)cdh {
     if (debug==1) {
